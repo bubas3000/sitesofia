@@ -172,7 +172,7 @@
 						<div class="wedding-events">
 							<div class="ceremony-bg" style="background-image: url(images/igreja\ \(Custom\).jpg);"></div>
 							<div class="desc">
-								<h3><strong>Cerimónia</strong></h3>
+								<h3><strong>Igreja</strong></h3>
 								<p><strong>Igreja Nossa Senhora Auxiliadora - 16h</strong></p>
 								
 								<p><strong> <i class="icon-map"></i>Praça São João Bosco 34, 1399-007 Lisboa</strong></p>
