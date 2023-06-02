@@ -122,6 +122,32 @@
 			  }
 			}, 1000);
 		  </script>
+		  <style>
+			/* Default styles for all devices */
+			.countdown {
+				display: flex;
+				justify-content: center;
+			}
+		
+			/* Styles for smartphones */
+			@media (max-width: 767px) {
+				.countdown {
+					flex-wrap: wrap;
+				}
+				.countdown span {
+					display: block;
+					width: 100%;
+					text-align: center;
+				}
+			}
+		
+			/* Styles for larger screens */
+			@media (min-width: 768px) {
+				.countdown span {
+					display: inline-block;
+				}
+			}
+		</style>
 				<div id="fh5co-countdown">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center animate-box">
@@ -235,8 +261,6 @@
 	
 						  <input type="email" placeholder="Email" id = "mail" name="Email" required>
 
-						  <input type="text" placeholder="Valor do Presente" name="Valor" required>
-								
 						  <textarea name="Mensagem" cols="40" rows="5" placeholder="Mensagem"></textarea>
 						  <button type="submit" class="btn cancel">Enviar</button>
 						  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
