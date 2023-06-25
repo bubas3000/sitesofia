@@ -334,6 +334,15 @@
 				  outline: none;
 				}
 
+				.form-container select{
+					width: 100%;
+				  padding: 15px;
+				  margin: 5px 0 22px 0;
+				  border: none;
+				  color: white;
+				  background: #47a6b18b;
+				}
+
 
 
 				.form-container ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
