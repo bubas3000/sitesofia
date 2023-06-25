@@ -530,7 +530,7 @@
 							  <!--<label for="email"><b>Email</b></label>-->
 							  <input type="text" placeholder="Nomes" name="Nomes" required>
 							  <select name="Presenca" required>
-								<option value="" disabled selected>Contamos convosco dia 1 de Outubro?</option>
+								<option value="" disabled selected>Contamos convosco?</option>
 								<option value="Sim">Sim!</option>
 								<option value="Não">Não</option>
 							  </select>
