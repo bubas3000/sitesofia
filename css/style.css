@@ -626,8 +626,28 @@ background-image: url(../images/musica.jpg);
 
 #fh5co-countdown .countdown {
   margin-bottom: 0;
-  font-size: 80px;
+  font-size: 50px;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-countdown .countdown span {
+    display: block;
+    font-family: "Alice", cursive;
+  }
+}
+
+/* Default styles for all devices */
+.fh5co-cover .animate-box {
+  text-align: center;
+  margin-top: 0%; /* Adjust the margin as needed */
+}
+
+/* Styles for smartphones */
+@media (max-width: 767px) {
+  .fh5co-cover .container {
+    margin-top: 80%; /* Adjust the margin as needed */
+  }
 }
 
 #fh5co-countdown .countdown span {
