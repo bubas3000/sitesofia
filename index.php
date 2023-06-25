@@ -200,7 +200,7 @@
 							<h2><br><strong>Presentes de Casamento</strong></h2>
 							<div class="wedding-events">
 							<meta name="format-detection" content="telephone=no" />
-							<p>Querida Família e queridos Amigos, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
+							<p>Querida Família e queridos Amigos a vossa presença será o nosso melhor presente. No entanto, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
 								<p><strong>IBAN: PT50 0035 0255 0023 5363 6002 6</strong>
 								<br><strong><strong>MBWAY: 912 641 367 | 918 566 534</strong></strong></p></div>
 								<!--<p><strong>Nome: Sofia Sofia Vaz Ramires G da Costa</strong></p>-->
@@ -529,7 +529,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h2>Sofia e João</h2>
-							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 1 de Setembro.</p>
+							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até ao dia 1 de setembro.</p>
 							<p>Sofia: +351 912 641 367 | João: +351 918 566 534</p>
 							<button type="submit" class="btn ft" onclick="openForm1()">RSVP</button>
 						</div>
