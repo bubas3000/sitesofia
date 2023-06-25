@@ -88,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-		<script>
+		<!--<script>
 			// Set the date to countdown to
 			var countDownDate = new Date("September 23, 2023 16:00:00").getTime();
 		
@@ -122,32 +122,6 @@
 			  }
 			}, 1000);
 		  </script>
-		  <style>
-			/* Default styles for all devices */
-			.countdown {
-				display: flex;
-				justify-content: center;
-			}
-		
-			/* Styles for smartphones */
-			@media (max-width: 767px) {
-				.countdown {
-					flex-wrap: wrap;
-				}
-				.countdown span {
-					display: block;
-					width: 100%;
-					text-align: center;
-				}
-			}
-		
-			/* Styles for larger screens */
-			@media (min-width: 768px) {
-				.countdown span {
-					display: inline-block;
-				}
-			}
-		</style>
 				<div id="fh5co-countdown">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center animate-box">
@@ -159,7 +133,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div>-->
 		<div id="fh5co-when-where" class="fh5co-section-gray" style="margin-top: 0%;">
 			<div class="container">
 				<div class="row">
@@ -172,7 +146,7 @@
 						<div class="wedding-events">
 							<div class="ceremony-bg" style="background-image: url(images/igreja\ \(Custom\).jpg);"></div>
 							<div class="desc">
-								<h3><strong>Igreja</strong></h3>
+								<h3><strong>Cerimónia</strong></h3>
 								<p><strong>Igreja Nossa Senhora Auxiliadora - 16h</strong></p>
 								
 								<p><strong> <i class="icon-map"></i>Praça São João Bosco 34, 1399-007 Lisboa</strong></p>
@@ -226,7 +200,7 @@
 							<h2><br><strong>Presentes de Casamento</strong></h2>
 							<div class="wedding-events">
 							<p>Querida Família e queridos Amigos, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
-								<p><strong>IBAN: PT50 0269 0391 0020 5654 5860 5</strong>
+								<p><strong>IBAN: PT50 0035 0255 0023 5363 6002 6</strong>
 								<br><strong><strong>MBWAY: 912 641 367 | 918 566 534</strong></strong></p></div>
 								<!--<p><strong>Nome: Sofia Sofia Vaz Ramires G da Costa</strong></p>-->
 						</div>
@@ -251,7 +225,7 @@
 						</div>
 					</div>
 					<div class="form-popup" id="myForm">
-						<form action="" method="POST" id="Presentes" class="form-container">
+						<form action="https://script.google.com/macros/s/AKfycbwQ_SkHMpI7dMYOeztHdjfxLitWZ5rJEYyU-CUZqDxToXlFBhstxa28R8nEBjRtAjJ6/exec" method="POST" id="Presentes" class="form-container">
 						  <h1><strong>Para que possamos agradecer</strong></h1>
 					  
 						  <!--<label for="email"><b>Email</b></label>-->
@@ -494,7 +468,7 @@
 						</div>
 						<div class="row animate-box">
 							<div class="col-md-10 col-md-offset-1">
-								<form action="" method="POST" id="Musica" class="form-inline">
+								<form action="https://script.google.com/macros/s/AKfycbxlZJA3h9-6AsyJWIBMJF4UXr66S-Jlbd3BGsz-yPo0IUNwhD0fDo2Y2MzM8aexhjR77g/exec" method="POST" id="Musica" class="form-inline">
 									<div class="col-md-4 col-sm-4">
 										<div class="form-group">
 											<label for="name" class="sr-only">Música</label>
@@ -550,7 +524,7 @@
 							<button type="submit" class="btn ft" onclick="openForm1()">RSVP</button>
 						</div>
 						<div class="form-popup" id="myForm1">
-							<form method="POST" action=""  class="form-container" id = "rsvp">
+							<form method="POST" action="https://script.google.com/macros/s/AKfycbzaqHLeGqYIlwQVbfJz2C4X4BX38ui_djHebezMi2ld4krlxtOIQX-_u0-MGaSVvFuL/exec"  class="form-container" id = "rsvp">
 							  <h1><strong>Confirme a sua presença</strong></h1>
 						  
 							  <!--<label for="email"><b>Email</b></label>-->
