@@ -199,6 +199,7 @@
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 							<h2><br><strong>Presentes de Casamento</strong></h2>
 							<div class="wedding-events">
+							<meta name="format-detection" content="telephone=no" />
 							<p>Querida Família e queridos Amigos, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
 								<p><strong>IBAN: PT50 0035 0255 0023 5363 6002 6</strong>
 								<br><strong><strong>MBWAY: 912 641 367 | 918 566 534</strong></strong></p></div>
