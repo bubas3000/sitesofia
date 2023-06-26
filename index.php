@@ -237,7 +237,7 @@
 	
 						  <input type="email" placeholder="Email" id = "mail" name="Email" required>
 
-						  <textarea name="Mensagem" cols="40" rows="5" placeholder="Mensagem"></textarea>
+						  <textarea name="Mensagem" cols="40" rows="3" placeholder="Mensagem"></textarea>
 						  <button type="submit" class="btn cancel">Enviar</button>
 						  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
 						</form>
