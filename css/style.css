@@ -626,14 +626,22 @@ background-image: url(../images/musica.jpg);
 
 #fh5co-countdown .countdown {
   margin-bottom: 0;
-  font-size: 50px;
-  color: #fff;
+  color: #fff; 
+}
+
+#fh5co-countdown .countdown span {
+  margin: 0 50px;
+  display: inline-block;
+  font-family: "Alice", cursive;
+  font-size: 60px;
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-countdown .countdown span {
-    display: block;
+    margin: 0 5px;
+    display: inline-block;
     font-family: "Alice", cursive;
+    font-size: 30px;
   }
 }
 
@@ -650,17 +658,6 @@ background-image: url(../images/musica.jpg);
   }
 }
 
-#fh5co-countdown .countdown span {
-  margin: 0 30px;
-  display: inline-block;
-  font-family: "Alice", cursive;
-}
-
-#fh5co-countdown .countdown small {
-  display: block;
-  font-size: 16px;
-  font-family: "Open Sans", Arial, sans-serif;
-}
 
 .couple-wrap {
   width: 100%;
