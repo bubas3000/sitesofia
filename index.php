@@ -88,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-		<!--<script>
+		<script>
 			// Set the date to countdown to
 			var countDownDate = new Date("September 23, 2023 16:00:00").getTime();
 		
@@ -107,24 +107,25 @@
 			  var secondss = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 		
 			  // Update the HTML elements with the countdown values
-			  document.getElementById("dayss").innerHTML = dayss + "d ";
-			  document.getElementById("hourss").innerHTML = hourss + "h ";
-			  document.getElementById("minutess").innerHTML = minutess + "m ";
-			  document.getElementById("secondss").innerHTML = secondss + "s ";
+			  document.getElementById("dayss").innerHTML = dayss + "d";
+			  document.getElementById("hourss").innerHTML = hourss + "h";
+			  document.getElementById("minutess").innerHTML = minutess + "m";
+			  document.getElementById("secondss").innerHTML = secondss + "s";
 		
 			  // If the countdown is over, stop the timer
 			  if (timeRemaining < 0) {
 				clearInterval(countdownTimer);
-				document.getElementById("dayss").innerHTML = "0d ";
-				document.getElementById("hourss").innerHTML = "0h ";
-				document.getElementById("minutess").innerHTML = "0m ";
-				document.getElementById("secondss").innerHTML = "0s ";
+				document.getElementById("dayss").innerHTML = "0d";
+				document.getElementById("hourss").innerHTML = "0h";
+				document.getElementById("minutess").innerHTML = "0m";
+				document.getElementById("secondss").innerHTML = "0s";
 			  }
 			}, 1000);
 		  </script>
 				<div id="fh5co-countdown">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center animate-box">
+							<!--<h2 style="color: white;">Está quase!</h2>-->
 							<p class="countdown">
 								<span id="dayss"></span>
 								<span id="hourss"></span>
@@ -133,7 +134,7 @@
 							</p>
 						</div>
 					</div>
-				</div>-->
+				</div>
 		<div id="fh5co-when-where" class="fh5co-section-gray" style="margin-top: 0%;">
 			<div class="container">
 				<div class="row">
@@ -200,7 +201,7 @@
 							<h2><br><strong>Presentes de Casamento</strong></h2>
 							<div class="wedding-events">
 							<meta name="format-detection" content="telephone=no" />
-							<p>Querida Família e queridos Amigos a vossa presença será o nosso melhor presente. No entanto, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
+							<p>Querida Família e queridos Amigos, a vossa presença será o nosso melhor presente. No entanto, se desejarem colaborar para a nova fase da nossa vida deixamos NIB, pedindo que indiquem o nome na transferência para que possamos agradecer individualmente.</p>
 								<p><strong>IBAN: PT50 0035 0255 0023 5363 6002 6</strong>
 								<br><strong><strong>MBWAY: 912 641 367 | 918 566 534</strong></strong></p></div>
 								<!--<p><strong>Nome: Sofia Sofia Vaz Ramires G da Costa</strong></p>-->
