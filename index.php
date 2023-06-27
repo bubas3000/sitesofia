@@ -216,32 +216,56 @@
 								</div>
 							</div>
 						</div>-->
-						<div class="col-md-8 col-md-offset-2 text-center animate-box">
+						<style>
+							#ceremony-bg .ceremony-bg {
+							  position: absolute;
+							  top: 0;
+							  left: 0;
+							  width: 100%;
+							  height: 100%;
+							  background-size: cover;
+							  background-position: center;
+							  opacity: 0; /* Set initial opacity to 0 */
+							}
+						  </style>
+						  
+						  <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h2><br><strong>Lua de Mel</strong></h2>
 							<div class="wedding-events">
-								<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
-								<div class="desc">
-									<button class="btn btn-primary btn-block" onclick="openForm()">Lua de Mel</button>
-									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
-								</div>
+							  <div id="ceremony-bg" class="ceremony-bg"></div>
 							</div>
-						</div>
+						  </div>
+						  
+						  <script>
+							var images = ['images/safari.jpg','images/maldivas1.jpg','images/maldivas2.jpg'];
+							var currentIndex = 0;
+							var ceremonyBg = document.querySelector('#ceremony-bg');
+						  
+							function changeBackgroundImage() {
+							  ceremonyBg.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+							  currentIndex = (currentIndex + 1) % images.length;
+							}
+							changeBackgroundImage()
+							setInterval(changeBackgroundImage, 4000);
+						  </script>
+						  
 					</div>
-					<div class="form-popup" id="myForm">
+					<!--<div class="form-popup" id="myForm">
 						<form action="https://script.google.com/macros/s/AKfycbwQ_SkHMpI7dMYOeztHdjfxLitWZ5rJEYyU-CUZqDxToXlFBhstxa28R8nEBjRtAjJ6/exec" method="POST" id="Presentes" class="form-container">
 						  <h1><strong>Para que possamos agradecer</strong></h1>
 					  
-						  <!--<label for="email"><b>Email</b></label>-->
+						  <label for="email"><b>Email</b></label>
 						  <input type="text" placeholder="Nome" name="Nome" required>
 
 						  <input type="text" placeholder="Telemóvel" name="Telemovel" required>
 	
 						  <input type="email" placeholder="Email" id = "mail" name="Email" required>
 
-						  <textarea name="Mensagem" cols="40" rows="3" placeholder="Mensagem"></textarea>
+						  <textarea name="Mensagem" cols="40" rows="2" placeholder="Mensagem"></textarea>
 						  <button type="submit" class="btn cancel">Enviar</button>
 						  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
 						</form>
-					</div>
+					</div>-->
 				</div>	
 			</div>
 			<script>
